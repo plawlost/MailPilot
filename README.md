@@ -53,4 +53,4 @@ MailPilot is licensed under the [Apache License 2.0](LICENSE).
 
 For issues and feature requests, please [open an issue](https://github.com/plawlost/MailPilot/issues).
 
-For questions and support, contact us at [contact@plawlost.com](mailto:contact@plawlost.com).
+For questions and support, contact me at [contact@plawlost.com](mailto:contact@plawlost.com).
