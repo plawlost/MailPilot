@@ -4,7 +4,7 @@
 
 MailPilot is a versatile email sending tool for personalized mass mailing. It allows you to send personalized emails to a list of recipients using email templates. With MailPilot, you can automate and streamline your email marketing and communication efforts.
 
-<img src="https://i.ibb.co/SVg50yx/mailpilot-transparent.png" alt="MailPilot Logo" width="500" height="500">
+<img src="https://i.ibb.co/SVg50yx/mailpilot-transparent.png" alt="MailPilot Logo" width="300" height="300">
 
 ## Features
 
