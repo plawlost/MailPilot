@@ -1,12 +1,32 @@
-            - name: PyPI Auto Publish
+            - name: pypi-publish
   # You may pin to the exact commit or the version.
-  # uses: AlirezaTheH/pypi-auto-publish@508a2937b5a2abc343c2df471d824eb74af98551
-  uses: AlirezaTheH/pypi-auto-publish@v1.0.0
-  with:
-    # API token of the Test PyPI account publishing the project. If missing, publish on Test PyPI is skipped.
-    test-pypi-api-token: # optional
-    # API token of the PyPI account publishing the project.
-    pypi-api-token: pypi-AgENdGVzdC5weXBpLm9yZwIkNjU5ZGZjOTktOTJlZS00OGVlLWEyMTctNTEzMjczYWFhMGYwAAIqWzMsImFjYzJmNzA1LTRmM2UtNDdkOS1iMGEzLTliNjZkNjc5YzRmYiJdAAAGIJx5o-ku5-iig1hPnmwr1OEbB10VaThTTtTsRnqAVsN0
-    # Name of the PyPI package.
-    package-name: MailPilot
+  # uses: pypa/gh-action-pypi-publish@2f6f737ca5f74c637829c0f5c3acd0e29ea5e8bf
+  uses: pypa/gh-action-pypi-publish@v1.8.11
+  with: 
+    # PyPI user
+    user: plawlost
+    # Password for your PyPI user or an access token
+    password: pypi-AgENdGVzdC5weXBpLm9yZwIkNjU5ZGZjOTktOTJlZS00OGVlLWEyMTctNTEzMjczYWFhMGYwAAIqWzMsImFjYzJmNzA1LTRmM2UtNDdkOS1iMGEzLTliNjZkNjc5YzRmYiJdAAAGIJx5o-ku5-iig1hPnmwr1OEbB10VaThTTtTsRnqAVsN0
+    # The repository URL to use
+    repository-url: # optional
+    # [DEPRECATED] The repository URL to use
+    repository_url: https://github.com/plawlost/MailPilot/
+    # The target directory for distribution
+    packages-dir: # optional
+    # [DEPRECATED] The target directory for distribution
+    packages_dir: # optional, default is dist
+    # Check metadata before uploading
+    verify-metadata: # optional
+    # [DEPRECATED] Check metadata before uploading
+    verify_metadata: # optional, default is true
+    # Do not fail if a Python package distribution exists in the target package index
+    skip-existing: # optional
+    # [DEPRECATED] Do not fail if a Python package distribution exists in the target package index
+    skip_existing: # optional, default is false
+    # Show verbose output.
+    verbose: # optional, default is false
+    # Show hash values of files to be uploaded
+    print-hash: # optional
+    # [DEPRECATED] Show hash values of files to be uploaded
+    print_hash: # optional, default is false
           
