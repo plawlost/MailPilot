@@ -1,11 +1,12 @@
-            - name: Deploy Pypi
+            - name: PyPI Auto Publish
   # You may pin to the exact commit or the version.
-  uses: remorses/pypi@c5a97a333f4d4d59cea6ec2e6a17c15e3241be29
+  # uses: AlirezaTheH/pypi-auto-publish@508a2937b5a2abc343c2df471d824eb74af98551
+  uses: AlirezaTheH/pypi-auto-publish@v1.0.0
   with:
-    # setup file
-    setup_file: ./setup.py
-    # username
-    username: plawlost
-    # password
-    password: s9g8iLABqb95XM2
+    # API token of the Test PyPI account publishing the project. If missing, publish on Test PyPI is skipped.
+    test-pypi-api-token: # optional
+    # API token of the PyPI account publishing the project.
+    pypi-api-token: pypi-AgENdGVzdC5weXBpLm9yZwIkNjU5ZGZjOTktOTJlZS00OGVlLWEyMTctNTEzMjczYWFhMGYwAAIqWzMsImFjYzJmNzA1LTRmM2UtNDdkOS1iMGEzLTliNjZkNjc5YzRmYiJdAAAGIJx5o-ku5-iig1hPnmwr1OEbB10VaThTTtTsRnqAVsN0
+    # Name of the PyPI package.
+    package-name: MailPilot
           
