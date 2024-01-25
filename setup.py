@@ -32,13 +32,6 @@ CLASSIFIERS = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Operating System :: OS Independent",
-    "Topic :: Communications",
-    "Topic :: Communications :: Email",
-    "Topic :: Communications :: Email :: Mail Transfer Agents (MTA)",
-    "Topic :: Communications :: Email :: Mailing List Administration",
-    "Topic :: Communications :: Email :: News",
-    "Topic :: Communications :: Email :: News :: Front-Ends",
-    "Topic :: Communications :: Email :: News :: Posting",
 ]
 
 # Where the magic happens:
