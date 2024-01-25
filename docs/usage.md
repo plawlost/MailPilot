@@ -39,12 +39,4 @@ MailPilot can be integrated with scheduling tools like cron to send emails at sp
 ### Using MailPilot in Scripts
 
 You can use MailPilot in your Python scripts by importing and utilizing its classes and functions.
-
-### Help and Commands
-
-For a list of all commands and options, run:
-
-  ```bash
-  mailpilot ---help
-  ```
   
